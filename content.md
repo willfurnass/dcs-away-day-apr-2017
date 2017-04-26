@@ -57,6 +57,10 @@ Mike Croucher, Tania Allard, Will Furnass
 
 
 
+### Literate programming
+
+<img src="resources/jupyter_notebook_example.png" alt="Jupyter Notebook example" id="jupyter-nb-ex" />
+
 
 
 ### To summarise
