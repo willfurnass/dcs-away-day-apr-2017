@@ -1,4 +1,4 @@
-# Overview
+### Overview
 
 1. [Research Software Engineering][rse-tuos] team?
 1. [JupyterHub][jupyterhub-docs] on [ShARC][sharc-docs]: 
@@ -13,19 +13,56 @@
 
 
 
-# ?
+### [Research Software Engineering][rse-tuos]?
 
+New team at TUOS.  Can help with:
+
+* **Faster code**: Interpreted and compiled languages; CUDA, parallelism 
+* **GPU computing**: NVIDIA GPU Research Centre; FLAME/FLAME GPU ABM, Deep Learning, courses 
+* **High Performance Computing** (HPC): TUOS clusters, **cloud**, software installs, training, advice  
+
+[rse-tuos]: http://rse.shef.ac.uk/ "University of Sheffield's Research Software Engineering (RSE) team"
+
+
+
+* **Software engineering**: automated, robust, open, accessible, user friendly and reproducible code 
+* **Increasing research impact**: Make software open, citable and discoverable 
+* **Grant support**: e.g. [Leverhulme Linguistics][dagmar-project] grant
+* **Supporting lecturers**: Courses, tutorials, local or cloud computing resources
+
+[dagmar-project]: http://rse.shef.ac.uk/blog/linuistics_grant_2016/
+
+
+
+* **Support of site-licensed research software**: e.g. Mathworks, Microsoft, Wolfram Research, Intel, NVIDIA, Maplesoft, NAG
+* **Training, outreach and education**: e.g. [Software Carpentry][soft-carp]
+
+[soft-carp]: https://software-carpentry.org/lessons/
+
+Can often help for free! 
+
+See [https://rse.shef.ac.uk][rse-tuos] 
+
+[rse-tuos]: http://rse.shef.ac.uk/ "University of Sheffield's Research Software Engineering (RSE) team"
+
+
+
+### Who are we?
+
+Paul Richmond, Twin Karmakharm, Mozhgan Kabiri Chimeh
+<img src="resources/rse-team.png" alt="TUOS RSE team" id="rse-team" />
+Mike Croucher, Tania Allard, Will Furnass
+
+**Not researchers, not technicians: RSEs!**
+
+
+
+
+
+### To summarise
 
 1. ?
 1. ?
 1. ?
 
-
-
-# ?
-
-1. ?
-1. ?
-1. ?
-
-
+Any questions?
