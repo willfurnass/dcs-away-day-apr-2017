@@ -63,6 +63,25 @@ Mike Croucher, Tania Allard, Will Furnass
 
 
 
+<!-- OpenDreamKit -->
+<img src="resources/odk-logo.svg" alt="OpenDreamKit logo" id="odk-logo" />
+
+Funding: [Horizon 2020][h2020] European [Research Infrastructure][eu-res-infra] project
+with the aim of *furthering the open-source computational mathematics ecosystem*
+
+Other exciting, related [OpenDreamKit][odk] work:
+
+* [nbdime][nbdime]: graphical Notebook diff/merge tool
+* [nbval][nbval]: Notebook regression testing/validation tool
+
+[odk]: http://opendreamkit.org/ 
+[h2020]: https://ec.europa.eu/programmes/horizon2020/
+[eu-res-infra]:_https://ec.europa.eu/programmes/horizon2020/en/h2020-section/european-research-infrastructures-including-e-infrastructures
+[nbdime]: https://nbdime.readthedocs.io/en/latest/
+[nbval]: https://github.com/computationalmodelling/nbval
+
+
+
 ### To summarise
 
 1. ?
