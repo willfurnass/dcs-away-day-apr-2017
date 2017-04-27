@@ -79,6 +79,49 @@ Note:
 
 
 
+### Why is Jupyter useful?
+
+* Exploratory, incremental analysis
+* Live demos
+* Encapsulate research narrative: reproducible workflow
+    * Executable journal papers?
+* Teaching: tutorials and assessments
+
+
+
+### Jupyter Architecture
+
+<img src="resources/jupyter-arch.png" alt="Jupyter architecture" id="jupyter-arch" />
+
+Note:
+
+* Kernel can support any lang
+* Notebook server can be on another machine
+    * High-spec?
+
+
+
+### Running the Jupyter server elsewhere: ShARC
+
+* e.g. on a HPC cluster
+    * more cores/RAM; GPU; distribute tasks to worker nodes
+
+* ShARC: new TUOS HPC cluster
+    * [https://docs.hpc.shef.ac.uk/en/latest/sharc/](https://docs.hpc.shef.ac.uk/en/latest/sharc/)
+    * General nodes: 98x, 16 cores / node (w/ AVX2, FMA); 4 GB RAM / core
+    * GPU nodes: 8x NVIDIA Tesla K80 / node
+    * Big memory nodes: 256GB RAM (16 GB / core)
+    * RSE big memory nodes: 768GB RAM (64 GB / core)
+    * RSE NVIDIA DGX-1: 8x NVIDIA Pascal P100 GPUs
+    * 100 Gbps node interconnects
+
+
+
+### JupyterHub: easily start Jupyter servers on remote machines
+
+?
+
+
 
 <!-- OpenDreamKit -->
 <img src="resources/odk-logo.svg" alt="OpenDreamKit logo" id="odk-logo" />
