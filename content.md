@@ -61,6 +61,23 @@ Mike Croucher, Tania Allard, Will Furnass
 
 <img src="resources/jupyter_notebook_example.png" alt="Jupyter Notebook example" id="jupyter-nb-ex" />
 
+Note:
+
+* Jupyter Notebooks
+    * runnable documents 
+    * code snippets 
+    * viewed and manipulated from a web browser. 
+    * encapsulating, presenting and sharing a coding-oriented workflow. 
+* A Notebook comprises a column of cells, where each cell can contain:
+    * some code or
+    * explanatory text (that can be formatted using Markdown) and/or mathematical expressions (formatted using MathJax).
+* When a code cell is executed by the user it can return anything renderable by a modern web browser:
+* a single value,
+* a table of data,
+* a figure or
+* a mathematical expression.
+
+
 
 
 <!-- OpenDreamKit -->
