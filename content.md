@@ -65,6 +65,7 @@ Note:
 
 * Jupyter Notebooks
     * runnable documents 
+    * browser as REPL
     * code snippets 
     * viewed and manipulated from a web browser. 
     * encapsulating, presenting and sharing a coding-oriented workflow. 
@@ -97,17 +98,14 @@ Note:
 
 * Kernel can support any lang
 * Notebook server can be on another machine
-    * High-spec?
+    * High-spec group server, cloud service or local HPC?
 
 
 
 ### Running the Jupyter server elsewhere: ShARC
 
-* e.g. on a HPC cluster
-    * more cores/RAM; GPU; distribute tasks to worker nodes
-
-* ShARC: new TUOS HPC cluster
-    * [https://docs.hpc.shef.ac.uk/en/latest/sharc/](https://docs.hpc.shef.ac.uk/en/latest/sharc/)
+* e.g. on a **HPC cluster**: more cores/RAM; GPU; distribute tasks to worker nodes
+* [ShARC](https://docs.hpc.shef.ac.uk/en/latest/sharc/): new TUOS HPC cluster
     * General nodes: 98x, 16 cores / node (w/ AVX2, FMA); 4 GB RAM / core
     * GPU nodes: 8x NVIDIA Tesla K80 / node
     * Big memory nodes: 256GB RAM (16 GB / core)
@@ -117,9 +115,32 @@ Note:
 
 
 
-### JupyterHub: easily start Jupyter servers on remote machines
+### JupyterHub
 
-?
+* Easily start Jupyter servers on remote machines!
+* On SHARC/Iceberg:
+    1. User logs in via web browser using TUOS username/password 
+    1. User request to start a Jupyter server
+        1. JupyterHub 'spawns' a server using a ShARC/Iceberg job
+        1. and waits for the job to start
+    1. User is transparently connected to their new Jupyter server
+    1. User starts writing/running notebooks
+    1. User can switch (conda) env / kernel using Jupyter UI
+
+
+
+<img src="resources/jupyterhub-arch.png" alt="JupyterHub architecture" id="jupyterhub-arch" />
+
+
+
+### Current status
+
+* Public service on [https://jupyter.shef.ac.uk](https://jupyter.shef.ac.uk) (Iceberg)
+* Private beta on [https://jupyter-sharc.shef.ac.uk](https://jupyter-sharc.shef.ac.uk) (ShARC)
+* Cannot yet request non-default resources for Jupyter job
+    * Want web UI for requesting CPU cores, RAM, GPUs, multiple worker nodes etc.
+* JupyterHub services need making more resilient
+* Want access to beta on ShARC?  Get in touch!
 
 
 
@@ -144,8 +165,8 @@ Other exciting, related [OpenDreamKit][odk] work:
 
 ### To summarise
 
-1. ?
-1. ?
-1. ?
+1. The RSE team are here to help
+1. Being able to run Jupyter Notebooks on remote, powerful hardware is exciting
+1. We should be able to do so on TUOS's clusters in a flexible, robust way fairly soon
 
 Any questions?
